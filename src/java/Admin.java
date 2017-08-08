@@ -25,6 +25,7 @@ public class Admin extends HttpServlet {
         int exec = 0;
         PrintWriter out = response.getWriter();
         out.println("<html><head><title>Show Info</title>\n"
+                +"<link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image/x-icon\">"
                 + "<style> body {\n"
                 + "  height:100%;\n"
                 + "}\n"
